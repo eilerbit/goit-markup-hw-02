@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo,
+.footer-logo {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-list,
+.contact-list,
+.features-list,
+.team-list,
+.portfolio-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-link,
+.contact-link,
+.portfolio-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.nav-link:hover,
+.nav-link:focus,
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: #007bff;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.17;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
