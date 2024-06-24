@@ -45,10 +45,14 @@ header nav {
 }
 
 .nav-link,
-.contact-link,
 .portfolio-link {
-    text-decoration: none;
     font-weight: 500;
+}
+
+.nav-link,
+.contact-link,
+.portfolio-link {    
+    text-decoration: none;    
     line-height: 1.5;
     letter-spacing: 0.02em;    
 }
@@ -160,8 +164,7 @@ header nav {
 }
 
 .footer {
-    background-color: #2e2f42;
-    text-align: center;
+    background-color: #2e2f42;    
 }
 
 .footer-text{
@@ -172,10 +175,4 @@ header nav {
 
 .footer .logo-content {
     color: #f4f4fd;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Raleway', sans-serif;
 }
